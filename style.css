@@ -1,0 +1,243 @@
+* {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+
+    }
+
+}
+
+body {
+    background-color: rgb(228, 255, 200);
+
+    margin: 0;
+}
+
+nav {
+    text-transform: uppercase;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(170, 238, 106);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo img {
+
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 10%;
+    padding-left: 5%;
+    text-align: right;
+}
+
+.text {
+    width: 25%;
+    text-align: left;
+    font-size: 40px;
+    padding-left: 1%;
+
+}
+
+.menu {
+
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 5%;
+    padding-left: 10px;
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.login {
+
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 5%;
+
+
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 131, 14);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+button:hover {
+
+    background-color: beige;
+    color: black;
+}
+
+/* nav end */
+
+/* header start */
+
+.header {
+
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.image {
+    background-image: url(./greenSoofa.jpg);
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    align-items: center;
+
+
+
+}
+
+.home {
+    /* background-color: rgb(0, 126, 237); */
+
+}
+
+.imageText {
+
+    text-transform: uppercase;
+    color: rgb(170, 255, 101);
+    text-align: center;
+
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.button3 {
+    text-transform: uppercase;
+
+    font-size: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(123, 185, 23);
+}
+
+marquee {
+    font-size: 25px;
+    padding-top: 10px;
+    color: rgb(0, 24, 0);
+
+}
+
+/* header end */
+
+/* home start */
+
+.home {
+
+    width: 80%;
+    padding-top: 50px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.home h1 {
+    text-transform: uppercase;
+}
+
+.section {
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
+
+.col {
+
+    border-radius: 10px;
+    flex-basis: 30%;
+    overflow: hidden;
+
+
+}
+
+
+.col img {
+    width: 100%;
+    box-shadow: 6px 6px 6px gray;
+
+}
+
+.col a {
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.col a:hover {
+
+    background-color: rgb(88, 117, 8);
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+
+
+
+}
+
+/* home end */
+
+/* footer start */
+
+.footer {
+    background-color: rgb(5, 16, 36);
+
+    width: 100%;
+    height: 35vh;
+    text-align: center;
+
+}
+
+.footerText1 {
+    font-size: larger;
+
+    color: white;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+
+.footerText1 h1 {
+    text-transform: uppercase;
+}
+
+.footerText2 {
+
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+/* end footer */
